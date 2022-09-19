@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container1{
+    background: #15161B;
+    color: #fff;
+}
+.img1{
+    border-radius: 10px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 80px;
+}
+.text1{
+    max-width: 300px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.text1 p{
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.text1 h1{
+    font-size: 33px;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.text1 button{
+    padding: 12px 30px;
+    background: #1A7993;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+
+    transition: background-color 700ms;
+}
+
+.text1 button:hover{
+    color: #1A7993;
+    background-color: #fff;
+}
+
+span{
+    color:#1A7993;
+}
+
+.principais{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 27px;
+    font-family: 'Dancing Script', cursive;
+}
+.itens-baixo1 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 60px;
+    gap: 90px;
+    background: #2C2F37;
+    padding: 20px 20px ;
+    font-weight: 600;
+}
+
+.itens2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 30px;
+    padding-bottom: 120px;
+}
+
+.rel{
+    display: flex;
+    justify-content: center;
+    background-color: #2C2F37;
+    width: 160px;
+    height: 150px;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+
+    transition:background-color 700ms;
+}
+
+.rel:hover{
+    background-color: #1A7993;
+}
+
+.sab{
+    display: flex;
+    justify-content: center;
+    background-color: #2C2F37;
+    width: 160px;
+    height: 150px;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    
+    transition-property: background-color;
+    transition-duration: 700ms;
+}   
+
+.sab:hover{
+    background-color: #1A7993;
+}
+
+.amor{
+    display: flex;
+    justify-content: center;
+    background-color: #1A7993;
+    width: 160px;
+    height: 150px;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+
+    transition-property: background-color;
+    transition-duration: 700ms;
+}
+
+.amor:hover{
+    background-color: #fff;
+    color: #1A7993;
+    font-weight: 500;
+}
+
+.amiza{
+    display: flex;
+    justify-content: center;
+    background-color: #2C2F37;
+    width: 160px;
+    height: 150px;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+
+    transition-property: background-color;
+    transition-duration: 700ms;
+}
+
+.amiza:hover{
+    background-color: #1A7993;
+}
+
+
+.fa-regular{
+   padding-bottom: 18px;
+   font-size: 30px;
+}
+
+/* main */
+
+.section-cima{
+    display: flex;
+    background-color: #1A7993;
+    color: #fff;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text-left{
+    max-width: 400px;
+    font-weight: 500;
+    align-content: center;
+    margin-top: 40px;
+}
+
+.text-left h1{
+    margin-bottom: 10px;
+}
+
+.text-left p{
+    margin-bottom: 20px;
+}
+
+.text-left button{
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
+
+.container-footer{
+    background-color: #15161B;
+    color: #fff;
+}
+.input-footer h1{
+    font-size: 18px;
+    text-align: center ;
+    padding-bottom: 15px;
+}
+
+.input-footer{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.input-footer input{
+   padding: 10px;
+   border: none;
+   margin: 5px;
+   font-weight: 900;
+   font-size: 10px;
+   color: black;
+}
+
+.input-footer button{
+    width: 97%;
+    margin: auto;
+    align-items: center;
+    padding: 8px 0;
+    margin-top: 4px;
+    background-color: #1A7993;
+    color: #fff;
+    font-weight: 900;
+    border: none;
+}
+
+
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.ii{
+text-align: center;
+margin-top: 7px;
+font-size: 20px;
+padding-bottom: 20px;
+display: flex;
+justify-content: center;
+gap: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
